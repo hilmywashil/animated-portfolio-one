@@ -11,8 +11,8 @@ import {
 import {
   DiCss3,
   DiHtml5,
-  DiJavascript1,
-  DiNodejsSmall,
+  DiLaravel,
+  DiPhp,
   DiReact,
 } from "react-icons/di";
 import { motion } from "framer-motion";
@@ -32,9 +32,9 @@ const Hero = () => {
                     sequence={[
                         "Fullstack Dev",
                         1000,
-                        "Webdesigner",
+                        "Web Designer",
                         1000,
-                        "Consultant",
+                        "Web Developer",
                         1000
                     ]}
                     speed={50}
@@ -50,7 +50,7 @@ const Hero = () => {
                 className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
                 >
                     HEY, I AM <br/>
-                    <span className="text-purple-500">JOHN DOE</span>
+                    <span className="text-purple-500">HILMY WASHIL</span>
                 </motion.p>
 
                 <motion.p
@@ -60,7 +60,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am a passionate fullstack developer with over 5 years of experience.
+                    I am a passionate junior developer eager to learn and grow in web development.
                 </motion.p>
 
                 <motion.div
@@ -114,9 +114,9 @@ const Hero = () => {
             <p className="text-gray-200 mr-6">My Tech Stack</p>
             <DiHtml5 className="text-orange-600 mx-2" />
             <DiCss3 className="text-blue-600 mx-2" />
-            <DiJavascript1 className="text-yellow-500 mx-2" />
+            <DiLaravel className="text-red-500 mx-2" />
             <DiReact className="text-blue-500 mx-2" />
-            <DiNodejsSmall className="text-green-500 mx-2" />
+            <DiPhp className="text-blue-700 mx-2" />
 
         </motion.div>
 

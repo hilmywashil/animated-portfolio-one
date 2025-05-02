@@ -6,9 +6,10 @@ import {
   DiBootstrap,
   DiJavascript1,
   DiReact,
-  DiNodejsSmall,
-  DiMongodb,
   DiGithubBadge,
+  DiLaravel,
+  DiMysql,
+  DiPhp,
 } from "react-icons/di"
 import Reveal from "./Reveal"
 
@@ -18,7 +19,6 @@ const skills = [
       technologies: [
         { name: 'HTML', icon: <DiHtml5 className='text-orange-600' /> },
         { name: 'CSS', icon: <DiCss3 className='text-blue-600' /> },
-        { name: 'Sass', icon: <DiSass className='text-pink-600' /> },
         { name: 'Bootstrap', icon: <DiBootstrap className='text-purple-600' /> },
         { name: 'JavaScript', icon: <DiJavascript1 className='text-yellow-500' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
@@ -27,8 +27,9 @@ const skills = [
     {
       category: 'Fullstack',
       technologies: [
-        { name: 'Node Js', icon: <DiNodejsSmall className='text-green-500' /> },
-        { name: 'MongoDB', icon: <DiMongodb className='text-green-600' /> },
+        { name: 'Laravel', icon: <DiLaravel className='text-red-500' /> },
+        { name: 'MySQL', icon: <DiMysql className='text-blue-400' /> },
+        { name: 'PHP', icon: <DiPhp className='text-blue-700' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
       ],
