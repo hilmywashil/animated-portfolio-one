@@ -4,24 +4,9 @@ import Reveal from './Reveal'
 
 const experiences = [
     {
-        company: 'First Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
-      {
-        company: 'Second Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
-      {
-        company: 'Third Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
-      },
-      {
-        company: 'Fourth Company',
-        period: '2020 - Present',
-        description: 'Description of your experience in this company.',
+        company: 'PT Rajakon Teknik',
+        period: 'Jan 2025 - May 2025',
+        description: 'Internship as a web developer, working on various projects using Laravel and React. Responsible for developing and maintaining web applications, implementing new features, and collaborating with the development team.',
       },
 ]
 
