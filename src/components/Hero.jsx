@@ -1,5 +1,5 @@
 import React from "react";
-import profilepic from "../assets/profpic.png";
+import profilepic from "../assets/profil.png";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
 import {
@@ -113,7 +113,7 @@ const Hero = () => {
             transition={{ duration: 1, delay: 2 }}
             className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24"
         >
-            <p className="text-gray-200 mr-6">My Tech Stack</p>
+            <p className="text-gray-200 mr-6">Tech Stack</p>
             <DiHtml5 className="text-orange-600 mx-2" />
             <DiCss3 className="text-blue-600 mx-2" />
             <DiLaravel className="text-red-500 mx-2" />
