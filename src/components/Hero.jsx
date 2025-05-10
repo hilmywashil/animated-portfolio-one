@@ -70,13 +70,14 @@ const Hero = () => {
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
                     <motion.a 
-                        href="/assets/hilmywashil-cv.pdf" 
-                        download="HilmyWashil-CV.pdf"
+                        href="https://drive.google.com/file/d/19FQnLJNUXmm10plOwnRBtc_lkoDFq9Hq/view?usp=drive_link"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
                                      border-purple-400 rounded-xl inline-block text-center"     
                     >
-                        Download CV
+                        View My CV
                     </motion.a>
 
                     <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
