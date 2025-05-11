@@ -48,7 +48,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 0.5 }}
                 className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
                 >
-                    HEY, I AM <br/>
+                    HI THERE, I AM <br/>
                     <span className="text-purple-500">HILMY WASHIL</span>
                 </motion.p>
 
