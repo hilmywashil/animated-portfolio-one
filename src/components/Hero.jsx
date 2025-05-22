@@ -70,7 +70,7 @@ const Hero = () => {
                 className="flex flex-row items-center gap-6 my-4 md:mb-0"
                 >
                     <motion.a 
-                        href="https://drive.google.com/file/d/19FQnLJNUXmm10plOwnRBtc_lkoDFq9Hq/view?usp=drive_link"
+                        href="https://cv-hilmywashil.vercel.app"
                         target="_blank"
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
