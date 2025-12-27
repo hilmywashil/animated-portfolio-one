@@ -16,24 +16,24 @@ const projects = [
       github: "https://github.com/hilmywashil/smk-it-baitul-aziz",
     },
   },
-  // {
-  //   img: project2,
-  //   title: "Project #2",
-  //   description: "A fullstack application built with Node.js and MongoDB.",
-  //   links: {
-  //     site: "#",
-  //     github: "#",
-  //   },
-  // },
-  // {
-  //   img: project4,
-  //   title: "Project #3",
-  //   description: "An e-commerce platform with various features.",
-  //   links: {
-  //     site: "#",
-  //     github: "#",
-  //   },
-  // },
+  {
+    img: project2,
+    title: "Project #2",
+    description: "A fullstack application built with Node.js and MongoDB.",
+    links: {
+      site: "#",
+      github: "#",
+    },
+  },
+  {
+    img: project4,
+    title: "Project #3",
+    description: "An e-commerce platform with various features.",
+    links: {
+      site: "#",
+      github: "#",
+    },
+  },
   // {
   //   img: project5,
   //   title: "Project #4",

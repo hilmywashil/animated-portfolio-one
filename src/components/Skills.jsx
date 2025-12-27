@@ -10,6 +10,7 @@ import {
   DiLaravel,
   DiMysql,
   DiPhp,
+  DiWordpress
 } from "react-icons/di"
 import Reveal from "./Reveal"
 
@@ -32,6 +33,7 @@ const skills = [
         { name: 'PHP', icon: <DiPhp className='text-blue-700' /> },
         { name: 'React', icon: <DiReact className='text-blue-500' /> },
         { name: 'GitHub', icon: <DiGithubBadge className='text-gray-600' /> },
+        { name: 'WordPress', icon: <DiWordpress className='text-gray-600' /> },
       ],
     },
   ]
